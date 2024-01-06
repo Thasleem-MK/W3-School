@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* background-color: aqua; */
+}
+.nav-left{
+    width: 40%;
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap:wrap;
+    overflow: auto;
+}
+.nav-image{
+    height: 100%;
+    cursor: pointer;
+    width: 16%;
+    opacity: 0.8;
+    align-items: center;
+    flex-grow: 1    ;
+}
+.nav-image:hover{
+    opacity: 1;
+}
+.nav-button{
+    height: 100%;
+    text-decoration: none;
+    border: 0;
+    background-color:rgb(255, 255, 255) ;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 1.171875vw;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.nav-button:hover{
+    background-color: rgb(115, 238, 115);
+}
+.nav-right{
+    width: 45%;
+    height: inherit;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-right a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.171875vw;
+    font-weight: bold;
+    color:  rgb(40, 42, 53);
+}
+.Pro{
+    width: 11%;
+    height: 70%;
+    background-color:darkslategrey ;
+    border-radius: 20px;
+}
+.Get-cirtified{
+    width: 22%;
+    height: 70%;
+    background-color: lightpink;
+    border-radius: 20px;
+}
+.Create-website{
+    width: 22%;
+    height: 70%;
+    background-color: lightyellow;
+    border-radius: 20px;
+}
+.Sign-Login{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(185, 249, 185);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Sign{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(54, 111, 54);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.Login{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(185, 249, 185);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.Menu-bar{
+    height: 32.5px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(40, 42, 53);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.Menu-bar-left{
+    height: inherit;
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Menu-bar-left button{
+    height: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:rgb(40, 42, 53);
+    cursor: pointer;
+    font-size: 13px;
+    flex-grow: 1;
+}
+.Menu-bar-left button:hover{
+    background-color: black;
+}
+.Menu-bar-left button:focus{
+    background-color: rgb(73, 204, 73);
+}
+.Home-icon{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-grow: 1;
+    margin-left: 0.9765625vw;
+}
+.Menu-bar-right{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Menu-bar-right i{
+    color: white;
+    flex-grow: 1;
+    cursor: pointer;
+}
